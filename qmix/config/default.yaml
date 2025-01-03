@@ -1,0 +1,32 @@
+
+learner: "q_learner"
+
+env: "sc2"
+batch_size: 32
+buffer_size: 5000
+map_name: "2s_vs_1sc"
+agent_name: "RNN"
+
+mix: ""
+t_max: 2000000
+
+# RL optims
+gamma: 0.99
+lr: 0.0005
+optim_alpha: 0.99
+optim_eps: 0.00001
+grad_norm_clip: 10
+
+seed: 99999999
+
+
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_time_length: 50000
+
+test_interval: 10000
+test_batch_size: 32
+
+hid_size: 64
+
+

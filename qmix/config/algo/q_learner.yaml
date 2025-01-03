@@ -1,0 +1,8 @@
+target_update_interval: 200
+
+double_q: True
+
+mix_embed_dim: 32
+hypernet_embed: 64
+
+
